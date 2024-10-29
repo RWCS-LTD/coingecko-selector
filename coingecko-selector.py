@@ -50,8 +50,13 @@ def get_top_tokens(page):
             "lido staked ether", "weth", "l2 standard bridged weth (base)", 
             "arbitrum bridged weth (arbitrum one)", "arbitrum bridged wbtc (arbitrum one)", 
             "coinbase wrapped btc", "kelp dao restaked eth", "ethereumpow", 
-            "ether.fi staked eth", "wrapped steth", "swell ethereum"
+            "ether.fi staked eth", "wrapped steth", "swell ethereum", "jupiter staked sol",
+            "bitcoin avalanche bridged (btc.b)", "lombard staked btc", "bridged usdc (polygon pos bridge)",
+            "usual usd", "usdd", "paypal usd", "trueusd", "usdb", "marinade staked sol", "wrapped bitcoin",
+            "solv protocol solvbtc", "binance staked sol", "solayer staked sol", "cwbtc", "polygon bridged wbtc (polygon pos)",
+            "ether.fi staked btc", "tbtc", "usdx.money usdx", "binance-peg dogecoin"
         ]
+        
         # Normalize symbols and names to lowercase for comparison
         tokens = [
             token for token in tokens 
